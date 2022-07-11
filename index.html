@@ -1,17 +1,16 @@
-<!--add alt text to ALL images-->
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Horiseon Social Solutions Homepage</title> <!--change to descrivptive title-->
+    <title>Horiseon Social Solutions Homepage</title> 
   </head>
 
   <body>
+    <!-- Header section starts here -->
     <header>
-      <!--took out header class, css matched but not condensed-->
-      <h1>Hori<span class="seo">seo</span>n</h1> <!--change color confirmed-->
-      <nav class="float-right"> <!--changed from div to nav, css matched but not condensed-->
+      <h1>Hori<span class="seo">seo</span>n</h1>
+      <nav class="float-right">
         <ul>
           <li> <a href="#search-engine-optimization">Search Engine Optimization</a></li>
           <li> <a href="#online-reputation-management">Online Reputation Management</a></li>
@@ -20,13 +19,12 @@
       </nav>
     </header>
 
+    <!-- Hero image section -->
     <section class="hero" title="large image of 4 people doing work in an office"></section>
-    <!--how to add alt to hero image - could use title but has no SEO value?-->
-    <!--changed div to section-->
+  
+    <!-- Main section starts here -->
     <main>
-      <!--changed div to main-->
       <section id="search-engine-optimization" class="content">
-        <!--changed div to section-->
         <img src="./assets/images/search-engine-optimization.jpg" alt="desk in ariel view with notebook, laptop, coffee and pencil holder" class="float-left"/>
         <h2>Search Engine Optimization</h2>
         <p>
@@ -38,8 +36,6 @@
       </section>
 
       <section id="online-reputation-management" class="content">
-        <!--changed div to section has id and class? may need to fix syntax-->
-        <!--why do you need / in 39 but not 50-->
         <img src="./assets/images/online-reputation-management.jpg" alt="person on phone and laptop; laptop reads REPUTATION with charts" class="float-right"/>
         <h2>Online Reputation Management</h2>
         <p>
@@ -61,11 +57,10 @@
           your lead generation.
         </p>
       </section>
-      <!--changed div to section-->
     </main>
 
-    <aside class="float-right"> <!--float right added and removed from css-->
-      <!--changed div to aside-->
+    <!-- Side panel section starts here -->
+    <aside class="float-right">
       <section>
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" alt="icon with gear funneling to dollar sign symbol" />
@@ -73,7 +68,7 @@
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
         </p>
-      </section> <!--changed div to section; fixed the font size - why?-->
+      </section>
 
       <section>
         <h3>Brand Awareness</h3> 
@@ -82,7 +77,7 @@
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
         </p>
-      </section> <!--changed div to section; fixed the font size - why?-->
+      </section>
 
       <section>
         <h3>Cost Management</h3> 
@@ -94,8 +89,9 @@
       </section>
     </aside>
 
-    <footer> <!--changed div to footer, fixed in css-->
-      <h3>Made with ❤️️ by Horiseon</h3> <!--changed h2 to h3-->
+    <!-- Footer section starts here -->
+    <footer>
+      <h3>Made with ❤️️ by Horiseon</h3>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
   </body>

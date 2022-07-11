@@ -20,14 +20,14 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo { /*change color to be accesible*/
-    color: #d9dcd6;
+/*changed "seo" color to stand out further next to white*/
+header h1 .seo { 
+    color: #c5c5ca;
 }
 
 header nav { 
     padding-top: 15px;
     margin-right: 20px;
-    /*float: right; added nav to float right class*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -87,6 +87,7 @@ footer h3 {
     font-size: 20px;
 }
 
+/*added "title" to hero img in html for accessibility*/
 .hero {
     height: 800px;
     width: 100%;
