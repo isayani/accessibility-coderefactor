@@ -1,13 +1,16 @@
+/*universal box-size, padding, margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color for webpage*/
 body {
     background-color: #d9dcd6;
 }
 
+/*properties for entire header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +18,7 @@ header {
     color: #ffffff;
 }
 
+/*properties for header title*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -25,6 +29,7 @@ header h1 .seo {
     color: #c5c5ca;
 }
 
+/*properties for navigation*/
 header nav { 
     padding-top: 15px;
     margin-right: 20px;
@@ -32,12 +37,14 @@ header nav {
     font-size: 20px;
 }
 
+/*properties for navigation content*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/*properties for entire main*/
 main {
     width: 75%;
     display: inline-block;
@@ -45,6 +52,7 @@ main {
     font-size: 16px;
 }
 
+/*properties for entire aside*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -55,27 +63,32 @@ aside {
     background-color: #2589bd;
 }
 
+/*properties for each section in aside*/
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*properties h3 tags in aside*/
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*properties images in aside*/
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*properties for links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*properties for entire footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -83,6 +96,7 @@ footer {
     text-align: center;
 }
 
+/*properties for footer content*/
 footer h3 {
     font-size: 20px;
 }
@@ -97,16 +111,19 @@ footer h3 {
     background-position: center;
 }
 
+/*assigned various elements to be included in this class (everything floats left)*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*assigned various elements to be included in this class (everything floats right)*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*created content class to assign similar values in main section*/
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,10 +133,12 @@ footer h3 {
     color: #ffffff;
 }
 
+/*properties for images in content class*/
 .content img {
     max-height: 200px;
 }
 
+/*properties for headers in content class*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
